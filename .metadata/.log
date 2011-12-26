@@ -1,0 +1,190 @@
+!SESSION 2011-12-26 20:47:43.342 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-12-26 20:48:26.630
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-12-26 20:48:26.630
+!MESSAGE Conflict for 'org.eclipse.debug.ui.commands.OpenProfileConfigurations':
+HandlerActivation(commandId=org.eclipse.debug.ui.commands.OpenProfileConfigurations,
+	handler=ActionDelegateHandlerProxy(null,sst.csut.ui.launchConfigurations.OpenUnitTestConfigurations),
+	expression=AndExpression(ActionSetExpression(sst.csut.unittestActionSet,org.eclipse.ui.internal.WorkbenchWindow@9a1411),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@9a1411)),sourcePriority=16640)
+HandlerActivation(commandId=org.eclipse.debug.ui.commands.OpenProfileConfigurations,
+	handler=ActionDelegateHandlerProxy(null,sst.tm.actions.OpenTestConfigurations),
+	expression=AndExpression(ActionSetExpression(sst.tm.testActionSet,org.eclipse.ui.internal.WorkbenchWindow@9a1411),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@9a1411)),sourcePriority=16640)
+
+!ENTRY sst.gp.core 1 0 2011-12-26 20:48:28.649
+!MESSAGE sst.gp.core earlyStartup()
+
+!ENTRY sst.gp.core 1 0 2011-12-26 20:48:28.677
+!MESSAGE Register ResourceChangeListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2011-12-26 20:48:28.692
+!MESSAGE Register WorkspaceSelectionListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2011-12-26 20:48:29.079
+!MESSAGE Platform installed location : C:\Program Files\Atollic\TrueSTUDIO for STMicroelectronics STM32 Lite 2.2.0\ide
+
+!ENTRY sst.gp.core 1 0 2011-12-26 20:48:29.084
+!MESSAGE IS_ATOLLIC_PLUGIN_INSTALLED : true
+
+!ENTRY sst.gp.core 1 0 2011-12-26 20:48:29.087
+!MESSAGE ATOLLIC_STM32_INSTALL_STATUS : 2
+
+!ENTRY sst.gp.core 1 0 2011-12-26 20:48:29.090
+!MESSAGE ATOLLIC_AVR_INSTALL_STATUS : -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2011-12-26 20:48:30.583
+!MESSAGE iconv is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2011-12-26 20:48:30.638
+!MESSAGE est is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2011-12-26 20:48:30.686
+!MESSAGE libiconv-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2011-12-26 20:48:30.693
+!MESSAGE libintl-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2011-12-26 20:48:30.915
+!MESSAGE xerces-c_2_7 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2011-12-26 20:48:30.958
+!MESSAGE RIMXJNI is loaded.
+
+!ENTRY org.eclipse.ui 4 4 2011-12-26 20:48:31.008
+!MESSAGE Could not create action delegate for id: sst.tm.actions.TestLast
+
+!ENTRY org.eclipse.ui 4 4 2011-12-26 20:48:31.011
+!MESSAGE Internal plug-in action delegate error on creation.
+!STACK 0
+java.lang.NullPointerException: A handle object may not have a null identifier
+	at org.eclipse.core.commands.common.HandleObjectManager.checkId(HandleObjectManager.java:55)
+	at org.eclipse.core.commands.CommandManager.getCommand(CommandManager.java:544)
+	at org.eclipse.ui.internal.commands.CommandService.getCommand(CommandService.java:147)
+	at org.eclipse.debug.internal.ui.actions.RelaunchLastAction.initialize(RelaunchLastAction.java:136)
+	at org.eclipse.debug.internal.ui.actions.RelaunchLastAction.selectionChanged(RelaunchLastAction.java:118)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:126)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at com.atollic.truestudio.startup.exposed.MarketingDialog.open(Unknown Source)
+	at com.atollic.truestudio.startup.TrueStudioSplashHandler$3.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY sst.csgp 1 0 2011-12-26 20:48:31.978
+!MESSAGE platform install loc : C:\Program Files\Atollic\TrueSTUDIO for STMicroelectronics STM32 Lite 2.2.0\ide
+
+!ENTRY sst.tm 1 0 2011-12-26 20:48:32.022
+!MESSAGE C:\Program Files\Atollic\TrueSTUDIO for STMicroelectronics STM32 Lite 2.2.0\ide\plugins\sst.tm_1.1.1.201104081447\CSHOME\
+
+!ENTRY sst.tm 1 0 2011-12-26 20:48:32.245
+!MESSAGE D:\WorkSpace\yazanamu-eclipse-workspace-stm32f4-discovery\.metadata\.plugins\sst.tm
+
+!ENTRY sst.tm 1 0 2011-12-26 20:48:36.626
+!MESSAGE 
+
+
+---------------------------------------------------
+2011/12/26 20:48:36
+---------------------------------------------------
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:50:22.528
+!MESSAGE Indexed 'MEDIA_USB_KEY' (35 sources, 90 headers) in 6.99 sec: 8,632 declarations; 31,705 references; 3 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:50:26.051
+!MESSAGE Indexed 'MEDIA_InFLASH' (20 sources, 65 headers) in 3.52 sec: 5,788 declarations; 16,548 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:51:30.838
+!MESSAGE Indexed 'RCC' (29 sources, 80 headers) in 2.56 sec: 7,497 declarations; 24,845 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:52:23.311
+!MESSAGE Indexed 'STM32F4-Discovery' (33 sources, 86 headers) in 3.50 sec: 8,119 declarations; 28,421 references; 3 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:52:48.656
+!MESSAGE Indexed 'ADC_Interleaved_DMAmode2' (9 sources, 58 headers) in 1.97 sec: 3,771 declarations; 8,011 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:53:26.336
+!MESSAGE Indexed 'ADC3_DMA' (9 sources, 61 headers) in 2.33 sec: 4,597 declarations; 8,688 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:53:59.850
+!MESSAGE Indexed 'DAC_SignalsGeneration' (12 sources, 58 headers) in 2.11 sec: 4,135 declarations; 10,409 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:54:21.728
+!MESSAGE Indexed 'DMA_FLASH_RAM' (9 sources, 59 headers) in 2.45 sec: 3,792 declarations; 7,993 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:54:52.432
+!MESSAGE Indexed 'EXTI' (11 sources, 58 headers) in 2.69 sec: 3,818 declarations; 15,379 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:55:15.123
+!MESSAGE Indexed 'FLASH_Program' (8 sources, 58 headers) in 2.40 sec: 3,666 declarations; 6,835 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:55:36.721
+!MESSAGE Indexed 'FLASH_Write_Protection' (10 sources, 58 headers) in 2.48 sec: 3,687 declarations; 7,068 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:55:58.615
+!MESSAGE Indexed 'IO_Toggle' (7 sources, 58 headers) in 2.43 sec: 3,570 declarations; 5,951 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:56:28.419
+!MESSAGE Indexed 'IWDG' (13 sources, 58 headers) in 2.58 sec: 4,211 declarations; 10,747 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:56:52.567
+!MESSAGE Indexed 'LIS302DL' (12 sources, 60 headers) in 2.71 sec: 4,357 declarations; 12,050 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:57:10.182
+!MESSAGE Indexed 'PWR_CurrentConsumption' (12 sources, 59 headers) in 2.98 sec: 3,854 declarations; 9,519 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:57:37.171
+!MESSAGE Indexed 'PWR_STANDBY' (11 sources, 58 headers) in 3.04 sec: 3,837 declarations; 9,350 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:58:04.506
+!MESSAGE Indexed 'PWR_STOP' (11 sources, 58 headers) in 3.47 sec: 3,847 declarations; 9,306 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:58:41.933
+!MESSAGE Indexed 'RCC' (7 sources, 58 headers) in 2.86 sec: 3,577 declarations; 5,978 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:59:03.207
+!MESSAGE Indexed 'SysTick' (7 sources, 59 headers) in 2.94 sec: 3,575 declarations; 5,893 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:59:21.163
+!MESSAGE Indexed 'TIM_ComplementarySignals' (8 sources, 58 headers) in 3.20 sec: 3,950 declarations; 8,508 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 20:59:41.263
+!MESSAGE Indexed 'TIM_PWM_Input' (8 sources, 58 headers) in 3.25 sec: 3,953 declarations; 8,382 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 21:01:50.876
+!MESSAGE Indexed 'TIM_PWM_Output' (8 sources, 58 headers) in 3.40 sec: 3,950 declarations; 8,467 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-12-26 21:02:22.833
+!MESSAGE Indexed 'TIM_TimeBase' (8 sources, 58 headers) in 2.96 sec: 3,959 declarations; 8,565 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)

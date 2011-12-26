@@ -1,0 +1,15 @@
+
+**** Rebuild of configuration Debug for project ADC_Interleaved_DMAmode2 ****
+
+**** Internal Builder is used for build               ****
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -I../..\..\..\..\..\Libraries\CMSIS\Include -I../..\..\..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I../..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I../..\..\..\..\..\Utilities\STM32F4-Discovery -I../../../ -O0 -ffunction-sections -fdata-sections -g -Wall -mcpu=cortex-m4 -Os -oUser\system_stm32f4xx.o ..\..\..\system_stm32f4xx.c
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -I../..\..\..\..\..\Libraries\CMSIS\Include -I../..\..\..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I../..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I../..\..\..\..\..\Utilities\STM32F4-Discovery -I../../../ -O0 -ffunction-sections -fdata-sections -g -Wall -mcpu=cortex-m4 -Os -oSTM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o ..\..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -I../..\..\..\..\..\Libraries\CMSIS\Include -I../..\..\..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I../..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I../..\..\..\..\..\Utilities\STM32F4-Discovery -I../../../ -O0 -ffunction-sections -fdata-sections -g -Wall -mcpu=cortex-m4 -Os -oSTM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o ..\..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -I../..\..\..\..\..\Libraries\CMSIS\Include -I../..\..\..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I../..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I../..\..\..\..\..\Utilities\STM32F4-Discovery -I../../../ -O0 -ffunction-sections -fdata-sections -g -Wall -mcpu=cortex-m4 -Os -oSTM32F4xx_StdPeriph_Driver\misc.o ..\..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -I../..\..\..\..\..\Libraries\CMSIS\Include -I../..\..\..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I../..\..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I../..\..\..\..\..\Utilities\STM32F4-Discovery -I../../../ -O0 -ffunction-sections -fdata-sections -g -Wall -mcpu=cortex-m4 -Os -oSTM32F4-Discovery\stm32f4_discovery.o ..\..\..\..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -g -mcpu=cortex-m4 -Wa,--warn -x assembler-with-cpp -oTrueSTUDIO\startup_stm32f4xx.o ..\..\..\..\..\..\Libraries\CMSIS\ST\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f4xx.s
+arm-atollic-eabi-gcc: ..\..\..\..\..\..\Libraries\CMSIS\ST\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f4xx.s: No such file or directory
+arm-atollic-eabi-gcc: warning: '-x assembler-with-cpp' after last input file has no effect
+arm-atollic-eabi-gcc: no input files
+Build error occurred, build is stopped
+Time consumed: 1109  ms.  
