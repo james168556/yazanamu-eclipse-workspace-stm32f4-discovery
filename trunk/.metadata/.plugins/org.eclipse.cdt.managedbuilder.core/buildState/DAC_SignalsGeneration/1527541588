@@ -1,0 +1,18 @@
+#
+#Mon Dec 26 20:53:57 KST 2011
+Debug/DAC_SignalsGeneration=1
+STM32F4xx_StdPeriph_Driver/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c=1
+Debug/User/stm32f4xx_it.o=1
+TrueSTUDIO/startup_stm32f4xx.s=1
+STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.c=1
+Debug/STM32F4xx_StdPeriph_Driver/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o=1
+User/stm32f4xx_it.c=1
+Debug/STM32F4xx_StdPeriph_Driver/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o=1
+STM32F4xx_StdPeriph_Driver/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c=1
+Debug/DAC_SignalsGeneration.elf=1
+STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.c=1
+Debug/User/main.o=1
+Debug/STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.o=1
+User/main.c=1
+Debug/STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.o=1
+Debug/TrueSTUDIO/startup_stm32f4xx.o=1

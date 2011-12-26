@@ -1,0 +1,4 @@
+C:\Program Files\Atollic\TrueSTUDIO for STMicroelectronics STM32 Lite 2.2.0\ide\plugins\sst.tm_1.1.1.201104081447\CSHOME\
+C:\Program Files\Atollic\TrueSTUDIO for STMicroelectronics STM32 Lite 2.2.0\ide\plugins\sst.csgp_1.0.3\CSHOME
+C:\Program Files\Atollic\TrueSTUDIO for STMicroelectronics STM32 Lite 2.2.0\ARMTools
+D:\WorkSpace\yazanamu-eclipse-workspace-stm32f4-discovery\.metadata\.plugins\sst.tm
